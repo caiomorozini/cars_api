@@ -1,0 +1,14 @@
+﻿version: "3.3"
+services:
+  postgresql:
+    image: postgres:alpine
+    container_name: cars-api-postgres
+    environment:
+      - POSTGRES_DB=cars_api_dev
+      - POSTGRES_PASSWORD=development
+    ports:
+      - 5432:5432
+    volumes:
+      - cars_api_psql:/var/lib/postgresql/data
+volumes:
+  cars_api_psql:

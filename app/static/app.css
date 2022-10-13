@@ -1,0 +1,15 @@
+﻿
+body {
+    padding-top: 10px;
+}
+
+
+.container {
+    border-radius: 4px;
+    margin: auto;
+    width: 80%;
+}
+
+td {
+    text-align: center;
+}
