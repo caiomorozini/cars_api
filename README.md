@@ -133,9 +133,6 @@ poetry run pytest
 
 ## Swagger
 To access the swagger, go to http://localhost:8000/docs# and use the token to access the endpoints. Also, you can access the swagger on http://localhost:8000/redoc.
-## Heroku
-The application is deployed on Heroku. To access the swagger, go to https://cars-api-caio.herokuapp.com/docs# and use the token to access the endpoints. Also, you can access the swagger on https://cars-api-caio.herokuapp.com/redoc.
-
 
 ## Acess Flask endpoints
 To acess the flask endpoint, go to http://localhost:8000/flask.
